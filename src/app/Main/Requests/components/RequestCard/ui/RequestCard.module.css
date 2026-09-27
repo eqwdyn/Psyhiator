@@ -1,0 +1,19 @@
+.card {
+  border-radius: 18px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  box-shadow: 0 4px 16px 0 rgba(20, 61, 69, 0.07);
+}
+
+.defaultCard {
+  border: 1px solid #d4e8e7;
+}
+.lemonCard {
+  background-color: var(--color-lemon);
+}
+.blueCard {
+  background-color: var(--color-blue);
+}
